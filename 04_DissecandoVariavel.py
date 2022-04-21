@@ -1,0 +1,6 @@
+x = (input('Digite algo:'))
+print(f'Você escreveu: {x}')
+print(f'Você escreveu o tipo: {type(x)}')
+print(f'Só tem espaços: {x.isspace()}')
+print(f'É número: {x.isnumeric()}')
+print(f'É alfabético: {x.isalpha()}')
